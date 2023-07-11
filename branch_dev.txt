@@ -36,3 +36,5 @@ nothing added to commit but untracked files present (use "git add" to track) '''
 
 #8. this is main branch user changed the data and can be commited by this user.
 
+#10. when you merge form branch "dev1 to main" then all main branch user data/files merges with dev1 branch user.
+# This means main branch is still "pure" formate anything changedin dev1 does not effect here.
