@@ -34,3 +34,5 @@ nothing added to commit but untracked files present (use "git add" to track) '''
 #7.after switched to main branch, I chnaged this  6 and 7 lines. and committed.
 # what will happpen??
 
+#8. this is main branch user changed the data and can be commited by this user.
+
