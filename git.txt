@@ -30,7 +30,9 @@ Untracked files:
 
 #5. "git branch -M main" mapping your env to main branch because default branch is "main". 
 
-#6.
+# " git remote -v" show the local copy of cental repo.
+#6. "git remote add origin " creating a local copy of a central repository, since it provides an easy way to pull upstream changes or publish local commits.
+# "git remote add origin https://github.com/KiranSonkamble/test_git.git" creatinf the local copy of central repo at given url
 
 
 # what I  want to acheve by doing this.
