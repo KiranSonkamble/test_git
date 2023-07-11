@@ -34,3 +34,10 @@ nothing added to commit but untracked files present (use "git add" to track) '''
 
 #9. lets merge dev1 branch with main branch.
  
+#6.whenever dev1 branch user updates/commit anything it will be stored in dev1 branch.
+
+#7.after switched to main branch, I chnaged this  6 and 7 lines. and committed.
+# what will happpen??
+
+#8. this is main branch user changed the data and can be commited by this user.
+
