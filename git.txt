@@ -1,0 +1,41 @@
+# git commands 
+#1 "git init" intialoze /create an repo in local disk
+# "git config --global user.name "Kiran" "  setting the user name so that whenever your commiting the code it should able to tell ur name.
+# "git config --global user.name" gives the name of the user.
+# "git config --global user.email "krnsonkamble3@gmail.com" " config the email which is linked to the 'GITHUB' account.
+
+#2. "git status" show the status of the repo
+
+# "PS Z:\git_industry> git status"
+
+'''On branch master
+
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -a
+        README.md
+        git.txt'''
+
+# this means not following/tracking files so need to add the files.
+
+#3. "git add README.md" it started traking to this 'README.md' files
+
+# "git add ." will add the files to tracking
+
+# "git rm --cached git.txt" to remove from tracking.
+
+
+#4. "git commit -m "user commit message" " putting to staging env
+
+# what I  want to acheve by doing this.
+"""     git add -------------------> git commit --------------------> git push
+     {start tracking}    {putting on staging env}  { pushing to main branch}
+
+"""
+
+'''What is the difference between working area and staging area in git?
+The working area is where files that are not handled by git. 
+These files are also referred to as "untracked files".
+Staging area is files that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit.
+'''
