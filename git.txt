@@ -28,6 +28,11 @@ Untracked files:
 
 #4. "git commit -m "user commit message" " putting to staging env
 
+#5. "git branch -M main" mapping your env to main branch because default branch is "main". 
+
+#6.
+
+
 # what I  want to acheve by doing this.
 """     git add -------------------> git commit --------------------> git push
      {start tracking}    {putting on staging env}  { pushing to main branch}
