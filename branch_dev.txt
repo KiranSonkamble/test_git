@@ -1,0 +1,36 @@
+# I'm developer want get a copy of this repo
+
+#1. "git branch" check the branches
+
+# How to create a new branch
+#2. " git branch branchName" new branch will be created named 'branchName'.
+'''PS Z:\git_industry> git branch dev1
+  dev1
+* main '''
+
+#3. check the current branch
+'''PS Z:\git_industry> git checkout
+Your branch is up to date with 'origin/main'. '''
+
+#4. switch to other branch
+'''PS Z:\git_industry> git checkout dev1
+Switched to branch 'dev1' '''
+
+#### if branch switched/changed repo is copied to that branch #####
+
+### update the files to git repo ###
+
+#5. Now lets check the status
+'''PS Z:\git_industry> git status
+On branch dev1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branch_dev.txt
+
+nothing added to commit but untracked files present (use "git add" to track) '''
+
+#6.whenever dev1 branch user updates/commit anything it will be stored in dev1 branch.
+
+#7.after switched to main branch, I chnaged this  6 and 7 lines. and committed.
+# what will happpen??
+
