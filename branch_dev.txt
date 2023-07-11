@@ -32,7 +32,6 @@ nothing added to commit but untracked files present (use "git add" to track) '''
 #6-dev1. when I switched to main branch user, wrote 3 lines but in dev1 branch those lines missing that means
 # this is another copy of same file. which willl be chnged by only dev1 user and will not effect other user branch. 
 
-#9. lets merge dev1 branch with main branch.
  
 #6.whenever dev1 branch user updates/commit anything it will be stored in dev1 branch.
 
@@ -41,3 +40,10 @@ nothing added to commit but untracked files present (use "git add" to track) '''
 
 #8. this is main branch user changed the data and can be commited by this user.
 
+#9. lets merge dev1 branch with main branch.
+
+'''PS Z:\git_industry> git merge main
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict. '''
